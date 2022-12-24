@@ -9,28 +9,36 @@ galaxy_info:
   license: "license (BSD, MIT)"
   min_ansible_version: 2.8
   platforms:
+    - name: ArchLinux
+      versions:
+        - all
     - name: EL
       versions:
-        - 6
         - 7
         - 8
+        - 9
     - name: Fedora
       versions:
-        - 29
         - 30
         - 31
         - 32
+        - 33
+        - 34
+        - 35
+        - 36
     - name: Ubuntu
       versions:
         - xenial
         - bionic
         - focal
+        - jammy
     - name: Debian
       versions:
         - wheezy
         - jessie
         - stretch
         - buster
+        - bullseye
   galaxy_tags:
     - database
     - postgresql
